@@ -1,0 +1,38 @@
+body{
+    max-width: 100wh;
+    max-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ol li{
+    font-weight: bolder;
+    font-size: 2rem;
+    margin-left: 3rem;
+}
+#friend-name {
+    height: 3rem;
+    border: 2px solid black;
+    border-radius: .5rem;
+    padding-left: 1rem;
+}
+#friend-name:placeholder-shown{
+    font-weight: bold;
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+#add-friend-btn{
+    height: 3.5rem;
+    border: 2px solid black;
+    border-radius: .5rem;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-left: 1rem;
+    background-color: transparent;
+}
+.container{
+   background-color: lightgrey;
+   padding: 2rem;
+   border-radius: 1rem;
+   margin-top: 10vh;
+}
